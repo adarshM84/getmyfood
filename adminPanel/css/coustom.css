@@ -1,0 +1,168 @@
+.liItem {
+    list-style: none;
+    padding: 10px;
+    margin: 21px;
+    border-radius: 11px;
+    border-color: blue;
+    color: black;
+}
+
+.liItemActive {
+    list-style: none;
+    padding: 10px;
+    margin: 21px;
+    border-radius: 11px;
+
+}
+
+#sidebar div ul {
+    height: 78vh !important;
+}
+
+.sidenav {
+    width: 347px;
+    float: left;
+}
+
+.liA {
+    text-decoration: none;
+    color: black;
+}
+
+
+.liA:active {
+    text-decoration: none;
+    border-color: blue;
+    background-color: #0d6efd;
+    color: white;
+    border-radius: 12px;
+    /* padding: 10px; */
+}
+
+.containerPo {
+    position: relative;
+    left: 10px;
+}
+
+.row {
+    width: 100% !important;
+}
+
+.homeInput {
+    border: none;
+    background-color: transparent;
+    padding-top: 43px;
+}
+
+.dashboardCircle {
+    height: 134px;
+    /* width: 68%; */
+    background-color: #1d2954;
+    border-radius: 50%;
+}
+
+.dashboardValueSize {
+    font-weight: 700;
+    font-size: 30px;
+    width: 99%;
+}
+
+.circleFooterTextStyle {
+    /* position: absolute;
+    margin-left: -8%;
+    font-size: 32px;
+    font-family: 'poppin'; */
+    position: relative;
+    right: 23%;
+    font-size: 28px;
+    font-family: 'poppin';
+}
+
+.headingColor {
+    color: orange !important;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    border-bottom: 6px solid;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 5px;
+}
+
+#allSection .col-md-9 {
+    padding: 4px;
+    height: 90vh;
+}
+
+.VerticalScrollSection {
+    height: 90vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border: 5px solid white;
+}
+
+.fa-eye {
+    font-size: 30px;
+    cursor: pointer;
+    color: royalblue;
+}
+
+#imagePreview {
+    margin-top: 7px;
+    height: 226px;
+    width: 310px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 20px 1px white;
+}
+
+.error {
+    background: #df9d9d;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.success {
+    background: #76ff8d;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#circleDiv .col-md-3 {
+    margin-top: 85px !important;
+}
+
+.searchInput {
+    background-image: url("../../images/searchicon.png");
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+}
+
+/* for mobile */
+@media screen and (max-width:650px) {
+    .VerticalScrollSection {
+        height: 50vh;
+        overflow-x: auto;
+    }
+
+    #sidebar div ul {
+        height: 30vh !important;
+    }
+
+    .circleFooterTextStyle {
+        position: relative;
+        right: 11%;
+        font-size: 28px;
+        font-family: 'poppin';
+        margin-bottom: 40px;
+    }
+
+    #allSection .col-md-9 {
+        padding: 4px;
+        height: 60vh;
+    }
+    
+}
